@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WhatsApp Chat by NinjaTeam\n"
-"POT-Creation-Date: 2023-06-08 15:59+0700\n"
+"POT-Creation-Date: 2024-03-19 16:39+0700\n"
 "PO-Revision-Date: 2020-11-17 14:11+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.4.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: whatsapp.php\n"
@@ -28,89 +28,94 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-6: blocks/node_modules\n"
 "X-Poedit-SearchPathExcluded-7: assets\n"
 
-#: blocks/src/block/block.js:22
+#: blocks/dist/blocks.build.js:1 blocks/src/block/block.js:22
 msgid "WhatsApp Button"
 msgstr ""
 
-#: blocks/src/block/block.js:25
+#: blocks/dist/blocks.build.js:1 blocks/src/block/block.js:25
 msgid "ninjateam"
 msgstr ""
 
-#: blocks/src/block/block.js:25
+#: blocks/dist/blocks.build.js:1 blocks/src/block/block.js:25
 msgid "whatsapp"
 msgstr ""
 
-#: blocks/src/block/block.js:25
+#: blocks/dist/blocks.build.js:1 blocks/src/block/block.js:25
 msgid "nta"
 msgstr ""
 
-#: blocks/src/block/block.js:25
+#: blocks/dist/blocks.build.js:1 blocks/src/block/block.js:25
 msgid "wa"
 msgstr ""
 
-#: blocks/src/block/button-render.js:40 includes/I18n.php:22
-#: views/meta-button-style.php:73
-msgid "Online"
-msgstr ""
-
-#: blocks/src/block/button-render.js:40 includes/I18n.php:23
-msgid "Offline"
-msgstr ""
-
-#: blocks/src/block/edit.js:131
-msgid "Custom Button"
-msgstr ""
-
-#: blocks/src/block/edit.js:152
+#: blocks/dist/blocks.build.js:1 blocks/src/block/edit.js:165
 msgid "Select Account"
 msgstr ""
 
-#: blocks/src/block/edit.js:154
+#: blocks/dist/blocks.build.js:1 blocks/src/block/edit.js:167
 msgid "Choose your account from list:"
 msgstr ""
 
-#: blocks/src/block/edit.js:162
+#: blocks/dist/blocks.build.js:1 blocks/src/block/edit.js:141
+msgid "Custom Button"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:1 blocks/src/block/edit.js:175
 msgid "Enter your phone number:"
 msgstr ""
 
-#: blocks/src/block/edit.js:173 includes/PostType.php:51
+#: blocks/dist/blocks.build.js:1 blocks/src/block/edit.js:186
+#: includes/PostType.php:51
 msgid "Avatar (PRO)"
 msgstr ""
 
-#: blocks/src/block/edit.js:175 views/meta-button-style.php:17
+#: blocks/dist/blocks.build.js:1 blocks/src/block/edit.js:190
+#: views/meta-button-style.php:17
 msgid "Button Style"
 msgstr ""
 
-#: blocks/src/block/edit.js:180 views/meta-button-style.php:22
+#: blocks/dist/blocks.build.js:1 blocks/src/block/edit.js:196
+#: views/meta-button-style.php:22
 msgid "Round"
 msgstr ""
 
-#: blocks/src/block/edit.js:181 views/meta-button-style.php:25
+#: blocks/dist/blocks.build.js:1 blocks/src/block/edit.js:197
+#: views/meta-button-style.php:25
 msgid "Square"
 msgstr ""
 
-#: blocks/src/block/edit.js:188
+#: blocks/dist/blocks.build.js:1 blocks/src/block/edit.js:206
 msgid "Button Color"
 msgstr ""
 
-#: blocks/src/block/edit.js:193
+#: blocks/dist/blocks.build.js:1 blocks/src/block/edit.js:211
 msgid "Background Color"
 msgstr ""
 
-#: blocks/src/block/edit.js:199
+#: blocks/dist/blocks.build.js:1 blocks/src/block/edit.js:217
 msgid "Text Color"
 msgstr ""
 
-#: blocks/src/block/media-select.js:40
+#: blocks/dist/blocks.build.js:1 blocks/src/block/media-select.js:40
 msgid "Choose an image"
 msgstr ""
 
-#: blocks/src/block/media-select.js:57 blocks/src/block/media-select.js:63
+#: blocks/dist/blocks.build.js:1 blocks/src/block/media-select.js:57
+#: blocks/src/block/media-select.js:63
 msgid "Replace image"
 msgstr ""
 
-#: blocks/src/block/media-select.js:72
+#: blocks/dist/blocks.build.js:1 blocks/src/block/media-select.js:72
 msgid "Remove image"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:1 blocks/src/block/button-render.js:43
+#: includes/I18n.php:22 views/meta-button-style.php:73
+msgid "Online"
+msgstr ""
+
+#: blocks/src/block/button-render.js:43 includes/I18n.php:23
+msgid "Offline"
 msgstr ""
 
 #: includes/Cross.php:125
@@ -144,21 +149,21 @@ msgstr ""
 msgid "Hi! Click one of our member below to chat on <strong>WhatsApp</strong>"
 msgstr ""
 
-#: includes/Fields.php:83
+#: includes/Fields.php:87
 msgid "Need Help? <strong>Chat with us</strong>"
 msgstr ""
 
-#: includes/Fields.php:92
+#: includes/Fields.php:96
 msgid ""
 "Please accept our <a href=\"https://ninjateam.org/privacy-policy/\">privacy "
 "policy</a> first to start a conversation."
 msgstr ""
 
-#: includes/Fields.php:121
+#: includes/Fields.php:125
 msgid "I will be back in [njwa_time_work]"
 msgstr ""
 
-#: includes/Fields.php:122
+#: includes/Fields.php:126
 msgid "I will be back soon"
 msgstr ""
 
@@ -238,7 +243,7 @@ msgstr ""
 msgid "Manager Accounts"
 msgstr ""
 
-#: includes/PostType.php:262
+#: includes/PostType.php:262 views/design-settings.php:60
 msgid "Account Name"
 msgstr ""
 
@@ -250,7 +255,8 @@ msgstr ""
 msgid "Number"
 msgstr ""
 
-#: includes/PostType.php:265 views/meta-accounts.php:23
+#: includes/PostType.php:265 views/design-settings.php:44
+#: views/meta-accounts.php:23
 msgid "Title"
 msgstr ""
 
@@ -303,84 +309,80 @@ msgid "Update success"
 msgstr ""
 
 #. translators: %s: Plugin name and version.
-#: includes/Recommended/views/content.php:76
-#: includes/Recommended/views/content.php:84
+#: includes/Recommended/views/content.php:65
 #, php-format
 msgctxt "plugin"
 msgid "Install %s now"
 msgstr ""
 
-#: includes/Recommended/views/content.php:77
-#: includes/Recommended/views/content.php:85
+#: includes/Recommended/views/content.php:66
 msgid "Install Now"
 msgstr ""
 
-#: includes/Recommended/views/content.php:91
+#: includes/Recommended/views/content.php:71
 msgctxt "plugin"
 msgid "Cannot Install"
 msgstr ""
 
 #. translators: %s: Plugin name and version.
-#: includes/Recommended/views/content.php:108
-#: includes/Recommended/views/content.php:119
+#: includes/Recommended/views/content.php:87
 #, php-format
 msgctxt "plugin"
 msgid "Update %s now"
 msgstr ""
 
-#: includes/Recommended/views/content.php:110
-#: includes/Recommended/views/content.php:121
+#: includes/Recommended/views/content.php:89
 msgid "Update Now"
 msgstr ""
 
-#: includes/Recommended/views/content.php:127
+#: includes/Recommended/views/content.php:94
 msgctxt "plugin"
 msgid "Cannot Update"
 msgstr ""
 
-#: includes/Recommended/views/content.php:144
+#: includes/Recommended/views/content.php:111
 msgctxt "plugin"
 msgid "Activated"
 msgstr ""
 
-#: includes/Recommended/views/content.php:149
+#: includes/Recommended/views/content.php:116
 msgid "Activate"
 msgstr ""
 
 #. translators: %s: Plugin name.
-#: includes/Recommended/views/content.php:151
+#: includes/Recommended/views/content.php:118
 #, php-format
 msgctxt "plugin"
 msgid "Activate %s"
 msgstr ""
 
-#: includes/Recommended/views/content.php:162
+#: includes/Recommended/views/content.php:129
 msgid "Network Activate"
 msgstr ""
 
 #. translators: %s: Plugin name.
-#: includes/Recommended/views/content.php:164
+#: includes/Recommended/views/content.php:131
 #, php-format
 msgctxt "plugin"
 msgid "Network Activate %s"
 msgstr ""
 
-#: includes/Recommended/views/content.php:177
+#: includes/Recommended/views/content.php:144
 msgctxt "plugin"
 msgid "Cannot Activate"
 msgstr ""
 
-#: includes/Recommended/views/content.php:183
+#: includes/Recommended/views/content.php:150
 msgctxt "plugin"
 msgid "Installed"
 msgstr ""
 
-#: includes/Recommended/views/content.php:213
+#: includes/Recommended/views/content.php:180
 msgid "This plugin doesn&#8217;t work with your versions of WordPress and PHP."
 msgstr ""
 
 #. translators: 1: URL to WordPress Updates screen, 2: URL to Update PHP page.
-#: includes/Recommended/views/content.php:217
+#: includes/Recommended/views/content.php:184
 #, php-format
 msgid ""
 "<a href=\"%1$s\">Please update WordPress</a>, and then <a "
@@ -388,24 +390,24 @@ msgid ""
 msgstr ""
 
 #. translators: %s: URL to WordPress Updates screen.
-#: includes/Recommended/views/content.php:225
-#: includes/Recommended/views/content.php:241
+#: includes/Recommended/views/content.php:192
+#: includes/Recommended/views/content.php:208
 #, php-format
 msgid "<a href=\"%s\">Please update WordPress</a>."
 msgstr ""
 
 #. translators: %s: URL to Update PHP page.
-#: includes/Recommended/views/content.php:231
-#: includes/Recommended/views/content.php:250
+#: includes/Recommended/views/content.php:198
+#: includes/Recommended/views/content.php:217
 #, php-format
 msgid "<a href=\"%s\">Learn more about updating PHP</a>."
 msgstr ""
 
-#: includes/Recommended/views/content.php:237
+#: includes/Recommended/views/content.php:204
 msgid "This plugin doesn&#8217;t work with your version of WordPress."
 msgstr ""
 
-#: includes/Recommended/views/content.php:246
+#: includes/Recommended/views/content.php:213
 msgid "This plugin doesn&#8217;t work with your version of PHP."
 msgstr ""
 
@@ -494,9 +496,9 @@ msgstr ""
 msgid "Access Facebook for Business and view recorded events in Event Manager"
 msgstr ""
 
-#: views/analytics.php:36 views/design-settings.php:144
+#: views/analytics.php:36 views/design-settings.php:182
 #: views/display-settings.php:105 views/url-settings.php:43
-#: views/woocommerce-button.php:67
+#: views/woocommerce-button.php:79
 msgid "Save Changes"
 msgstr ""
 
@@ -525,42 +527,50 @@ msgid "Widget Text Color"
 msgstr ""
 
 #: views/design-settings.php:41
-msgid "Widget Background Color"
+msgid "Widget Font Size"
 msgstr ""
 
-#: views/design-settings.php:45
-msgid "Widget Position"
-msgstr ""
-
-#: views/design-settings.php:50
-msgid "Left"
-msgstr ""
-
-#: views/design-settings.php:53
-msgid "Right"
-msgstr ""
-
-#: views/design-settings.php:61
-msgid "Widget Distance"
-msgstr ""
-
-#: views/design-settings.php:90
-msgid "Widget Scroll Bar (PRO)"
-msgstr ""
-
-#: views/design-settings.php:99
-msgid "Powered-by Label (PRO)"
-msgstr ""
-
-#: views/design-settings.php:118
-msgid "Response Time Text"
-msgstr ""
-
-#: views/design-settings.php:124
+#: views/design-settings.php:52 views/design-settings.php:162
 msgid "Description"
 msgstr ""
 
-#: views/design-settings.php:130
+#: views/design-settings.php:68
+msgid "Regular Text"
+msgstr ""
+
+#: views/design-settings.php:79
+msgid "Widget Background Color"
+msgstr ""
+
+#: views/design-settings.php:83
+msgid "Widget Position"
+msgstr ""
+
+#: views/design-settings.php:88
+msgid "Left"
+msgstr ""
+
+#: views/design-settings.php:91
+msgid "Right"
+msgstr ""
+
+#: views/design-settings.php:99
+msgid "Widget Distance"
+msgstr ""
+
+#: views/design-settings.php:128
+msgid "Widget Scroll Bar (PRO)"
+msgstr ""
+
+#: views/design-settings.php:137
+msgid "Powered-by Label (PRO)"
+msgstr ""
+
+#: views/design-settings.php:156
+msgid "Response Time Text"
+msgstr ""
+
+#: views/design-settings.php:168
 msgid "GDPR Notice"
 msgstr ""
 
@@ -686,11 +696,11 @@ msgstr ""
 msgid "Button Text Color"
 msgstr ""
 
-#: views/selected-accounts.php:47 views/woocommerce-button.php:109
+#: views/selected-accounts.php:47 views/woocommerce-button.php:121
 msgid "Please select accounts you want them to display in WhatsApp Chat Widget"
 msgstr ""
 
-#: views/selected-accounts.php:49 views/woocommerce-button.php:111
+#: views/selected-accounts.php:49 views/woocommerce-button.php:123
 msgid "Selected Accounts:"
 msgstr ""
 
@@ -753,6 +763,14 @@ msgstr ""
 
 #: views/woocommerce-button.php:60
 msgid "Select accounts to display"
+msgstr ""
+
+#: views/woocommerce-button.php:66
+msgid "Third party integrations (PRO)"
+msgstr ""
+
+#: views/woocommerce-button.php:73
+msgid "Enable Dokan vendor button"
 msgstr ""
 
 #. Plugin Name of the plugin/theme
