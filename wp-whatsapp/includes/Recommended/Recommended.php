@@ -18,7 +18,7 @@ if ( ! class_exists( 'YayRecommended' ) ) {
 		public function do_hooks() {
 			add_action(
 				'init',
-				function() {
+				function () {
 					add_action( 'admin_menu', array( $this, 'admin_menu' ) );
 					add_action( 'admin_footer', array( $this, 'add_global_script_styles' ) );
 					add_action( 'wp_ajax_yay_recommended_get_plugin_data', array( $this, 'yay_recommended_get_plugin_data' ) );
@@ -52,7 +52,7 @@ if ( ! class_exists( 'YayRecommended' ) ) {
 					'slug'              => 'yaycurrency',
 					'name'              => 'YayCurrency - WooCommerce Multi-Currency Switcher',
 					'short_description' => 'WooCommerce Multi-Currency made easy, powerful, and flexible.',
-					'icon'              => 'https://ps.w.org/yaycurrency/assets/icon-256x256.png?rev=2550570',
+					'icon'              => 'https://ps.w.org/yaycurrency/assets/icon-256x256.png?rev=3056587',
 					'download_link'     => 'https://downloads.wordpress.org/plugin/yaycurrency.zip',
 					'type'              => array( 'featured', 'woocommerce' ),
 					'version'           => 0,
@@ -61,7 +61,7 @@ if ( ! class_exists( 'YayRecommended' ) ) {
 					'slug'              => 'yayswatches',
 					'name'              => 'YaySwatches - Variation Swatches for WooCommerce',
 					'short_description' => 'Optimize your variable product showcase with color swatches, image swatches, custom images, buttons, and more!',
-					'icon'              => 'https://ps.w.org/yayswatches/assets/icon-256x256.png?rev=2757155',
+					'icon'              => 'https://ps.w.org/yayswatches/assets/icon-256x256.png?rev=3056591',
 					'download_link'     => 'https://downloads.wordpress.org/plugin/yayswatches.zip',
 					'type'              => array( 'woocommerce' ),
 					'version'           => 0,
@@ -70,7 +70,7 @@ if ( ! class_exists( 'YayRecommended' ) ) {
 					'slug'              => 'yayextra',
 					'name'              => 'YayExtra - WooCommerce Extra Product Options',
 					'short_description' => 'Add WooCommerce product options like personal engraving, print-on-demand items, gifts, custom canvas prints, and personalized products.',
-					'icon'              => 'https://ps.w.org/yayextra/assets/icon-256x256.png?rev=2776349',
+					'icon'              => 'https://ps.w.org/yayextra/assets/icon-256x256.png?rev=3056586',
 					'download_link'     => 'https://downloads.wordpress.org/plugin/yayextra.zip',
 					'type'              => array( 'woocommerce' ),
 					'version'           => 0,
@@ -78,8 +78,8 @@ if ( ! class_exists( 'YayRecommended' ) ) {
 				'yaypricing'        => array(
 					'slug'              => 'yaypricing',
 					'name'              => 'YayPricing - WooCommerce Dynamic Pricing & Discounts',
-					'short_description' => 'Create WooCommerce Dynamic Pricing & Discounts rules without coding.',
-					'icon'              => 'https://ps.w.org/yaypricing/assets/icon-256x256.png?rev=2887976',
+					'short_description' => 'Offer automatic pricing and discounts to design a powerful marketing strategy for your WooCommerce store.',
+					'icon'              => 'https://ps.w.org/yaypricing/assets/icon-256x256.png?rev=3056580',
 					'download_link'     => 'https://downloads.wordpress.org/plugin/yaypricing.zip',
 					'type'              => array( 'woocommerce' ),
 					'version'           => 0,
@@ -88,7 +88,7 @@ if ( ! class_exists( 'YayRecommended' ) ) {
 					'slug'              => 'yaysmtp',
 					'name'              => 'YaySMTP - Simple WP SMTP Mail',
 					'short_description' => 'Send WordPress emails successfully with WP Mail SMTP via your favorite Mailer.',
-					'icon'              => 'https://ps.w.org/yaysmtp/assets/icon-256x256.png?rev=2437984',
+					'icon'              => 'https://ps.w.org/yaysmtp/assets/icon-256x256.png?rev=3056583',
 					'download_link'     => 'https://downloads.wordpress.org/plugin/yaysmtp.zip',
 					'type'              => array( 'featured', 'marketing' ),
 					'version'           => 0,
@@ -245,11 +245,11 @@ if ( ! class_exists( 'YayRecommended' ) ) {
 							<h2 class="yay-recommended-plugins-header-title"><?php esc_attr_e( 'Recommended Plugins', 'filebird' ); ?></h2>
 							<ul class="filter-links">
 								<?php
-								 echo wp_kses_post( $featured_tab );
+								echo wp_kses_post( $featured_tab );
 								?>
 								<li class="plugin-install-tab plugin-install-all" data-tab="all"><a href="#">All</a></li>
 								<?php
-								 echo wp_kses_post( $woo_tab );
+								echo wp_kses_post( $woo_tab );
 								?>
 								<li class="plugin-install-tab plugin-install-management" data-tab="management"><a href="#">Management</a> </li>
 								<li class="plugin-install-tab plugin-install-marketing" data-tab="marketing"><a href="#">Marketing</a></li>
@@ -416,7 +416,6 @@ if ( ! class_exists( 'YayRecommended' ) ) {
 								'ratings'           => false,
 								'downloaded'        => false,
 								'last_updated'      => false,
-								'added'             => false,
 								'tags'              => false,
 								'compatibility'     => false,
 								'homepage'          => false,
