@@ -204,6 +204,10 @@ if ( ! class_exists( 'NjtCross' ) ) {
 		}
 
 		public function ajax_install_plugin() {
+			if ( ! function_exists( 'current_user_can' ) || ! current_user_can( 'install_plugins' ) ) {
+				wp_send_json_error( array( 'message' => 'Current user cannot install this plugin' ) );
+			}
+
 			check_ajax_referer( 'njt_filebird_cross_nonce', 'nonce', true );
 
 			$installed = $this->pluginInstaller( 'filebird' );
